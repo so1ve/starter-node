@@ -4,17 +4,16 @@
   "packageManager": "pnpm@6.32.3",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/antfu/[name]#readme",
+  "homepage": "https://github.com/so1ve/[name]#readme",
   "bugs": {
-    "url": "https://github.com/antfu/[name]/issues"
+    "url": "https://github.com/so1ve/[name]/issues"
   },
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/[name].git"
+    "url": "git+https://github.com/so1ve/[name].git"
   },
-  "funding": "https://github.com/sponsors/antfu",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -48,7 +47,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.20.2",
+    "@so1ve/eslint-config": "^0.20.2",
     "@antfu/ni": "^0.14.0",
     "@babel/types": "^7.17.0",
     "@types/node": "^17.0.23",
