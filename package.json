@@ -4,12 +4,12 @@
   "packageManager": "pnpm@7.5.0",
   "description": "",
   "keywords": [],
+  "license": "MIT",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "homepage": "https://github.com/so1ve/[name]#readme",
   "bugs": {
     "url": "https://github.com/so1ve/[name]/issues"
   },
-  "license": "MIT",
-  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/so1ve/[name].git"
