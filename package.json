@@ -2,28 +2,29 @@
   "name": "name",
   "version": "0.0.0",
   "packageManager": "pnpm@7.5.1",
+  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "description": "",
   "keywords": [],
-  "license": "MIT",
-  "author": "Ray <nn_201312@163.com> (@so1ve)",
   "homepage": "https://github.com/so1ve/[name]#readme",
-  "bugs": {
-    "url": "https://github.com/so1ve/[name]/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/so1ve/[name].git"
   },
+  "bugs": {
+    "url": "https://github.com/so1ve/[name]/issues"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "typesVersions": {
     "*": {
       "*": [
@@ -35,7 +36,6 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "scripts": {
     "build": "rimraf dist && unbuild",
     "dev": "unbuild --stub",
