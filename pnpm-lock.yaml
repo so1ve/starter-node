@@ -10,8 +10,7 @@ importers:
       '@types/node': ^18.7.6
       bumpp: ^8.2.1
       eslint: ^8.22.0
-      jiti: ^1.14.0
-      pnpm: ^7.9.0
+      pnpm: ^7.14.2
       puild: ^1.2.3
       rimraf: ^3.0.2
       tsx: ^3.8.2
@@ -25,8 +24,7 @@ importers:
       '@types/node': 18.7.6
       bumpp: 8.2.1
       eslint: 8.22.0
-      jiti: 1.14.0
-      pnpm: 7.9.0
+      pnpm: 7.14.2
       puild: 1.2.3_typescript@4.7.4
       rimraf: 3.0.2
       tsx: 3.8.2
@@ -2197,11 +2195,6 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
-  /jiti/1.14.0:
-    resolution: {integrity: sha512-4IwstlaKQc9vCTC+qUXLM1hajy2ImiL9KnLvVYiaHOtS/v3wRjhLlGl121AmgDgx/O43uKmxownJghS5XMya2A==}
-    hasBin: true
-    dev: true
-
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
@@ -2647,8 +2640,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.9.0:
-    resolution: {integrity: sha512-xkIVw73yJm/h5M4VvFIS5Q+gQCRDrp3r92g58PtcCK86aZCa7EQ6q6ivdfTAz0KsAVgloA6Anub28n6wju5v3w==}
+  /pnpm/7.14.2:
+    resolution: {integrity: sha512-NSxrIaRW07jFQQ1fPFFOA8eMfuogsMeygOKd3zaFgyJBdo1oh61jl2JjWc+w0XNzWIMG7/v9HK7nP8RTL5NO3g==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
