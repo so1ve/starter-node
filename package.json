@@ -53,7 +53,7 @@
   "devDependencies": {
     "@antfu/ni": "^0.18.8",
     "@babel/types": "^7.20.5",
-    "@so1ve/eslint-config": "^0.32.3",
+    "@so1ve/eslint-config": "^0.34.0",
     "@types/node": "^18.11.17",
     "bumpp": "^8.2.1",
     "eslint": "^8.30.0",
