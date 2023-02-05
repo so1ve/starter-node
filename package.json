@@ -1,8 +1,8 @@
 {
   "name": "pkg-name",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.19.0",
-  "author": "Ray <nn_201312@163.com> (@so1ve)",
+  "packageManager": "pnpm@7.26.3",
+  "author": "Ray <i@mk1.io> (@so1ve)",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/so1ve/pkg-name#readme",
