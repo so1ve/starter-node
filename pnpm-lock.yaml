@@ -1,39 +1,41 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@antfu/ni': ^0.18.8
-  '@babel/types': ^7.20.7
-  '@so1ve/eslint-config': ^0.40.1
-  '@types/node': ^18.11.18
-  bumpp: ^8.2.1
-  eslint: ^8.31.0
-  pnpm: ^7.24.3
-  puild: ^1.3.2
-  rimraf: ^3.0.2
-  tsx: ^3.12.2
-  typescript: ^5.0.0
-  vite: ^4.0.4
-  vitest: ^0.27.0
+importers:
 
-devDependencies:
-  '@antfu/ni': 0.18.8
-  '@babel/types': 7.21.3
-  '@so1ve/eslint-config': 0.40.1_j4766f7ecgqbon3u7zlxn5zszu
-  '@types/node': 18.15.3
-  bumpp: 8.2.1
-  eslint: 8.36.0
-  pnpm: 7.30.0
-  puild: 1.3.2_typescript@5.0.2
-  rimraf: 3.0.2
-  tsx: 3.12.5
-  typescript: 5.0.2
-  vite: 4.2.0_@types+node@18.15.3
-  vitest: 0.27.3
+  .:
+    specifiers:
+      '@antfu/ni': ^0.20.0
+      '@babel/types': ^7.20.7
+      '@so1ve/eslint-config': ^0.40.1
+      '@types/node': ^18.11.18
+      bumpp: ^8.2.1
+      eslint: ^8.31.0
+      pnpm: ^7.24.3
+      puild: ^1.3.2
+      rimraf: ^3.0.2
+      tsx: ^3.12.2
+      typescript: ^5.0.0
+      vite: ^4.0.4
+      vitest: ^0.27.0
+    devDependencies:
+      '@antfu/ni': 0.20.0
+      '@babel/types': 7.21.3
+      '@so1ve/eslint-config': 0.40.1_j4766f7ecgqbon3u7zlxn5zszu
+      '@types/node': 18.15.3
+      bumpp: 8.2.1
+      eslint: 8.36.0
+      pnpm: 7.30.0
+      puild: 1.3.2_typescript@5.0.2
+      rimraf: 3.0.2
+      tsx: 3.12.5
+      typescript: 5.0.2
+      vite: 4.2.0_@types+node@18.15.3
+      vitest: 0.27.3
 
 packages:
 
-  /@antfu/ni/0.18.8:
-    resolution: {integrity: sha512-0m++AudwQq+wWAz/Ax7g+sh/wFW51HHQ6BtPLsuTAsFIzWB/bv/0COwZE7BRS+u0nqMb6Ks6nlk6cY1TpPDwHg==}
+  /@antfu/ni/0.20.0:
+    resolution: {integrity: sha512-mBgAuq2b0daSA/14LMyjEjaInD7/Zd7KVXZge7bQPKmtQJFqy9/pWBml6DMkMreeHQEomMtIbbeqReNJ/74kjA==}
     hasBin: true
     dev: true
 
