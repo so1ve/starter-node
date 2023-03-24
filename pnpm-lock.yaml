@@ -1,34 +1,36 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@antfu/ni': ^0.20.0
-  '@babel/types': ^7.20.7
-  '@so1ve/eslint-config': ^0.40.1
-  '@types/node': ^18.11.18
-  bumpp: ^8.2.1
-  eslint: ^8.31.0
-  pnpm: ^7.24.3
-  puild: ^1.3.2
-  rimraf: ^3.0.2
-  tsx: ^3.12.2
-  typescript: ^5.0.0
-  vite: ^4.0.4
-  vitest: ^0.27.0
+importers:
 
-devDependencies:
-  '@antfu/ni': 0.20.0
-  '@babel/types': 7.21.3
-  '@so1ve/eslint-config': 0.40.1_j4766f7ecgqbon3u7zlxn5zszu
-  '@types/node': 18.15.3
-  bumpp: 8.2.1
-  eslint: 8.36.0
-  pnpm: 7.30.0
-  puild: 1.3.2_typescript@5.0.2
-  rimraf: 3.0.2
-  tsx: 3.12.5
-  typescript: 5.0.2
-  vite: 4.2.0_@types+node@18.15.3
-  vitest: 0.27.3
+  .:
+    specifiers:
+      '@antfu/ni': ^0.20.0
+      '@babel/types': ^7.20.7
+      '@so1ve/eslint-config': ^0.40.1
+      '@types/node': ^18.11.18
+      bumpp: ^8.2.1
+      eslint: ^8.31.0
+      pnpm: ^7.24.3
+      puild: ^1.3.2
+      rimraf: ^4.0.0
+      tsx: ^3.12.2
+      typescript: ^5.0.0
+      vite: ^4.0.4
+      vitest: ^0.27.0
+    devDependencies:
+      '@antfu/ni': 0.20.0
+      '@babel/types': 7.21.3
+      '@so1ve/eslint-config': 0.40.1_j4766f7ecgqbon3u7zlxn5zszu
+      '@types/node': 18.15.3
+      bumpp: 8.2.1
+      eslint: 8.36.0
+      pnpm: 7.30.0
+      puild: 1.3.2_typescript@5.0.2
+      rimraf: 4.4.1
+      tsx: 3.12.5
+      typescript: 5.0.2
+      vite: 4.2.0_@types+node@18.15.3
+      vitest: 0.27.3
 
 packages:
 
@@ -904,6 +906,12 @@ packages:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
+    dev: true
+
+  /brace-expansion/2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+    dependencies:
+      balanced-match: 1.0.2
     dev: true
 
   /braces/3.0.2:
@@ -2027,6 +2035,16 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
+  /glob/9.3.2:
+    resolution: {integrity: sha512-BTv/JhKXFEHsErMte/AnfiSv8yYOLLiyH2lTg8vn02O21zWFgHPTfxtgn1QRe7NRgggUhC8hacR2Re94svHqeA==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      fs.realpath: 1.0.0
+      minimatch: 7.4.3
+      minipass: 4.2.5
+      path-scurry: 1.6.3
+    dev: true
+
   /globals/13.20.0:
     resolution: {integrity: sha512-Qg5QtVkCy/kv3FUSlu4ukeZDVf9ee0iXLAUYX13gbR17bnejFTzr4iS9bY7kwCf1NztRNm1t91fjOiyx4CSwPQ==}
     engines: {node: '>=8'}
@@ -2459,6 +2477,11 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /lru-cache/7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
+    engines: {node: '>=12'}
+    dev: true
+
   /magic-string/0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
@@ -2521,8 +2544,20 @@ packages:
       brace-expansion: 1.1.11
     dev: true
 
+  /minimatch/7.4.3:
+    resolution: {integrity: sha512-5UB4yYusDtkRPbRiy1cqZ1IpGNcJCGlEMG17RKzPddpyiPKoCdwohbED8g4QXT0ewCt8LTkQXuljsUfQ3FKM4A==}
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: true
+
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: true
+
+  /minipass/4.2.5:
+    resolution: {integrity: sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==}
+    engines: {node: '>=8'}
     dev: true
 
   /mlly/1.2.0:
@@ -2695,6 +2730,14 @@ packages:
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+    dev: true
+
+  /path-scurry/1.6.3:
+    resolution: {integrity: sha512-RAmB+n30SlN+HnNx6EbcpoDy9nwdpcGPnEKrJnu6GZoDWBdIjo1UQMVtW2ybtC7LC2oKLcMq8y5g8WnKLiod9g==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      lru-cache: 7.18.3
+      minipass: 4.2.5
     dev: true
 
   /path-type/4.0.0:
@@ -2873,6 +2916,14 @@ packages:
     hasBin: true
     dependencies:
       glob: 7.2.3
+    dev: true
+
+  /rimraf/4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      glob: 9.3.2
     dev: true
 
   /rollup/2.79.1:
