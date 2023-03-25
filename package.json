@@ -5,6 +5,7 @@
   "author": "Ray <i@mk1.io> (@so1ve)",
   "description": "",
   "keywords": [],
+  "type": "module",
   "homepage": "https://github.com/so1ve/pkg-name#readme",
   "repository": {
     "type": "git",
