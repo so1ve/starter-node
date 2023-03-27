@@ -41,8 +41,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "rimraf dist && puild",
-    "watch": "puild --watch",
+    "build": "unbuild",
+    "stub": "unbuild --stub",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
@@ -59,10 +59,9 @@
     "bumpp": "^8.2.1",
     "eslint": "^8.31.0",
     "pnpm": "^7.24.3",
-    "puild": "^1.3.2",
-    "rimraf": "^3.0.2",
     "tsx": "^3.12.2",
     "typescript": "^5.0.0",
+    "unbuild": "^1.1.2",
     "vite": "^4.0.4",
     "vitest": "^0.27.0"
   }
