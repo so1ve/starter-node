@@ -1,7 +1,7 @@
 {
   "name": "pkg-name",
   "version": "0.0.0",
-  "packageManager": "pnpm@7.30.0",
+  "packageManager": "pnpm@7.30.3",
   "author": "Ray <i@mk1.io> (@so1ve)",
   "description": "",
   "keywords": [],
@@ -45,6 +45,8 @@
     "stub": "unbuild --stub",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "check": "dprint check",
+    "fmt": "dprint fmt",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "tsx src/index.ts",
