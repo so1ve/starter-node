@@ -41,7 +41,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "rimraf dist && unbuild",
+    "build": "unbuild",
     "stub": "unbuild --stub",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -60,7 +60,6 @@
     "bumpp": "^9.1.0",
     "eslint": "^8.38.0",
     "pnpm": "^7.32.0",
-    "rimraf": "^5.0.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.4",
     "unbuild": "^1.2.1",
