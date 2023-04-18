@@ -1,36 +1,34 @@
 lockfileVersion: 5.4
 
-importers:
+specifiers:
+  '@antfu/ni': ^0.21.3
+  '@babel/types': ^7.21.4
+  '@so1ve/eslint-config': ^0.67.0
+  '@types/node': ^18.15.11
+  bumpp: ^9.1.0
+  eslint: ^8.38.0
+  pnpm: ^7.32.0
+  rimraf: ^5.0.0
+  tsx: ^3.12.6
+  typescript: ^5.0.4
+  unbuild: ^1.2.1
+  vite: ^4.2.1
+  vitest: ^0.30.1
 
-  .:
-    specifiers:
-      '@antfu/ni': ^0.21.3
-      '@babel/types': ^7.21.4
-      '@so1ve/eslint-config': ^0.67.0
-      '@types/node': ^18.15.11
-      bumpp: ^9.1.0
-      eslint: ^8.38.0
-      pnpm: ^7.32.0
-      rimraf: ^5.0.0
-      tsx: ^3.12.6
-      typescript: ^5.0.4
-      unbuild: ^1.2.1
-      vite: ^4.2.1
-      vitest: ^0.30.1
-    devDependencies:
-      '@antfu/ni': 0.21.3
-      '@babel/types': 7.21.4
-      '@so1ve/eslint-config': 0.67.0_voubu7prgxjfsfbgx5d4sqnwiy
-      '@types/node': 18.15.11
-      bumpp: 9.1.0
-      eslint: 8.38.0
-      pnpm: 7.32.0
-      rimraf: 5.0.0
-      tsx: 3.12.6
-      typescript: 5.0.4
-      unbuild: 1.2.1
-      vite: 4.2.1_@types+node@18.15.11
-      vitest: 0.30.1
+devDependencies:
+  '@antfu/ni': 0.21.3
+  '@babel/types': 7.21.4
+  '@so1ve/eslint-config': 0.67.0_voubu7prgxjfsfbgx5d4sqnwiy
+  '@types/node': 18.15.11
+  bumpp: 9.1.0
+  eslint: 8.38.0
+  pnpm: 7.32.0
+  rimraf: 5.0.0
+  tsx: 3.12.6
+  typescript: 5.0.4
+  unbuild: 1.2.1
+  vite: 4.2.1_@types+node@18.15.11
+  vitest: 0.30.1
 
 packages:
 
