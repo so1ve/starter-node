@@ -40,15 +40,15 @@
     "access": "public"
   },
   "scripts": {
-    "build": "unbuild",
+    "build": "pkgroll",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "nr build",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "start": "tsx src/index.ts",
-    "stub": "unbuild --stub",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "watch": "pkgroll --watch"
   },
   "devDependencies": {
     "@antfu/ni": "^0.21.3",
@@ -56,10 +56,10 @@
     "@types/node": "^18.16.6",
     "bumpp": "^9.1.0",
     "eslint": "^8.40.0",
+    "pkgroll": "^1.10.0",
     "prettier": "^2.8.8",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4",
-    "unbuild": "^1.2.1",
     "vite": "^4.3.5",
     "vitest": "^0.31.0"
   }
