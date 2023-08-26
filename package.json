@@ -47,7 +47,7 @@
 		"release": "bumpp --commit --push --tag && pnpm publish",
 		"start": "tsx src/index.ts",
 		"test": "vitest",
-		"typecheck": "vitest typecheck",
+		"typecheck": "tsc --noEmit",
 		"watch": "pkgroll --watch"
 	},
 	"devDependencies": {
