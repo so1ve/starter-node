@@ -57,7 +57,7 @@
 		"@types/node": "^18.16.6",
 		"bumpp": "^9.1.0",
 		"eslint": "^8.50.0",
-		"pkgroll": "^1.10.0",
+		"pkgroll": "^2.0.0",
 		"prettier": "^3.0.0",
 		"tsx": "^3.12.7",
 		"typescript": "^5.0.4",
