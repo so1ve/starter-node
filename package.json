@@ -17,13 +17,12 @@
 	"sideEffects": false,
 	"exports": {
 		".": {
-			"types": "./dist/index.d.ts",
-			"require": "./dist/index.cjs",
+			"require": "./dist/index.js",
 			"import": "./dist/index.mjs"
 		}
 	},
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.mjs",
+	"main": "./dist/index.js",
+	"module": "dist/index.mjs",
 	"types": "./dist/index.d.ts",
 	"typesVersions": {
 		"*": {
@@ -40,7 +39,7 @@
 		"access": "public"
 	},
 	"scripts": {
-		"build": "pkgroll",
+		"build": "tsup",
 		"lint": "eslint . && prettier . --check",
 		"lint:fix": "eslint . --fix && prettier . --write",
 		"prepublishOnly": "nr build",
@@ -48,7 +47,7 @@
 		"start": "tsx src/index.ts",
 		"test": "vitest",
 		"typecheck": "tsc --noEmit",
-		"watch": "pkgroll --watch"
+		"watch": "tsup --watch"
 	},
 	"devDependencies": {
 		"@antfu/ni": "^0.21.8",
@@ -57,8 +56,8 @@
 		"@types/node": "^20.8.3",
 		"bumpp": "^9.2.0",
 		"eslint": "^8.57.0",
-		"pkgroll": "^2.0.1",
 		"prettier": "^3.0.3",
+		"tsup": "^8.0.2",
 		"tsx": "^3.13.0",
 		"typescript": "^5.2.2",
 		"vite": "^4.4.11",
