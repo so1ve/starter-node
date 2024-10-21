@@ -882,7 +882,7 @@ packages:
       eslint-plugin-unicorn: 51.0.1(eslint@8.57.1)
       eslint-plugin-unused-imports: 3.2.0(eslint@8.57.1)
       eslint-plugin-vitest: 0.3.26(eslint@8.57.1)(typescript@5.6.3)(vitest@0.34.6)
-      eslint-plugin-vue: 9.29.0(eslint@8.57.1)
+      eslint-plugin-vue: 9.29.1(eslint@8.57.1)
       eslint-plugin-yml: 1.14.0(eslint@8.57.1)
       globals: 14.0.0
       jsonc-eslint-parser: 2.4.0
@@ -2730,8 +2730,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-vue@9.29.0(eslint@8.57.1):
-    resolution: {integrity: sha512-hamyjrBhNH6Li6R1h1VF9KHfshJlKgKEg3ARbGTn72CMNDSMhWbgC7NdkRDEh25AFW+4SDATzyNM+3gWuZii8g==}
+  /eslint-plugin-vue@9.29.1(eslint@8.57.1):
+    resolution: {integrity: sha512-MH/MbVae4HV/tM8gKAVWMPJbYgW04CK7SuzYRrlNERpxbO0P3+Zdsa2oAcFBW6xNu7W6lIkGOsFAMCRTYmrlWQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
