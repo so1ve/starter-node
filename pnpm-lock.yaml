@@ -28,7 +28,7 @@ devDependencies:
     version: 3.3.3
   tsup:
     specifier: ^8.0.2
-    version: 8.3.4(tsx@3.14.0)(typescript@5.6.3)
+    version: 8.3.5(tsx@3.14.0)(typescript@5.6.3)
   tsx:
     specifier: ^3.13.0
     version: 3.14.0
@@ -5138,8 +5138,8 @@ packages:
     resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
     dev: true
 
-  /tsup@8.3.4(tsx@3.14.0)(typescript@5.6.3):
-    resolution: {integrity: sha512-0uCsxLADTFwGsEfSMx5fBFtXNw1mZJBAU6ZJe6xMeGfLT6o/12JDigvBIrQJEZlK01YBsocRxU3i+YY6QduShQ==}
+  /tsup@8.3.5(tsx@3.14.0)(typescript@5.6.3):
+    resolution: {integrity: sha512-Tunf6r6m6tnZsG9GYWndg0z8dEV7fD733VBFzFJ5Vcm1FtlXB8xBD/rtrBi2a3YKEV7hHtxiZtW5EAVADoe1pA==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
